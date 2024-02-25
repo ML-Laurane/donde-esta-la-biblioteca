@@ -44,8 +44,8 @@ INSERT INTO author VALUES (1, "Alexandre", "Dumas"),
 	(4, "Severine", "Lettrez");
 	
 
-INSERT INTO book VALUES (1, "Le conte de Monte Cristo", 900, "Aventure", 10, 1),
-	(2, "Les trois mousquetaires", 300, "Aventure", 9, 1),
-	(3, "Apprendre le Java mais pas sur l'île de Java", 900, "Enseignement", 10, 2),
-	(4, "Le RC Lense, un club pas comme les autres", 900, "Histoire", 10, 4),
-	(5, "La RGPD, une protection contre l 'injustice", 900, "Juridique", 10, 1);
+INSERT INTO book VALUES (1, "Le conte de Monte Cristo", 900, "ADVENTURE", 10, 1),
+	(2, "Les trois mousquetaires", 300, "ADVENTURE", 9, 1),
+	(3, "Apprendre le Java mais pas sur l'île de Java", 900, "ENSEIGNEMENT", 10, 2),
+	(4, "Le RC Lense, un club pas comme les autres", 900, "HISTOIRE", 10, 4),
+	(5, "La RGPD, une protection contre l 'injustice", 900, "JURIDIQUE", 10, 1);

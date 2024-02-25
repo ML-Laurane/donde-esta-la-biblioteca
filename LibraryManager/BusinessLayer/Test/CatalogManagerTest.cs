@@ -69,8 +69,6 @@ namespace BusinessLayer.Test
             Book awaitedResult = new Book(14, "Juan", 10, BookType.FANTASY, 3, 1);
             List<Book> mockBooks = [new Book(667, "Pablo", 12, BookType.ADVENTURE, 2, 1), awaitedResult];
 
-            //_bookRepository.Setup(bkRep => bkRep.Get(id)).Returns(mockBooks);
-
             Book foundBook = _catalogManager.FindBook(14);
             Assert.AreEqual(awaitedResult, foundBook);
         }
